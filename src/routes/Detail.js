@@ -14,8 +14,8 @@ class Detail extends React.Component {
     if (location.state) {
       return (
         <section className='container'>
-          <div className='movies'>
-            <div className='movie'>
+          <div className='movies__detail'>
+            <div className='movie__detail'>
               <img
                 src={location.state.poster}
                 alt={location.state.title}
